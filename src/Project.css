@@ -1,0 +1,33 @@
+.projects{
+    background-color: #f1f2f5;
+    padding-bottom: 200px;
+
+}
+
+.project {
+    display: flex;
+    padding: 30px;
+
+}
+
+.projects>h3{
+    color: #141c3a;
+    font-size: 2rem;
+    line-height: 1.15;
+    font-weight: 800;
+    padding-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.projects>h2{
+    padding-bottom: 45px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "europa", sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+

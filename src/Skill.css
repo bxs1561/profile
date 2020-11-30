@@ -1,0 +1,39 @@
+
+.skill{
+    background-color: #4c6d86;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+
+
+
+}
+.skill > p{
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.skill > h2 {
+    font-weight: 900;
+    font-size: 35px;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.technology{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
