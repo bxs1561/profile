@@ -4,6 +4,7 @@ import Card from "./Card";
 import img from "./Store-backend.png"
 import nep from "./Nep App.png"
 import AppCard from "./AppCard";
+import Nepkarts from "./Nepkarts.png"
 
 
 // const logo = require('.src/Store-backend.png');
@@ -16,72 +17,37 @@ function Project() {
                 <Card
                     src={img}
                     title="Backend store information "
-                    description="Create an API from information user submit "
+                    description="Create an API from information user submit, use this information to display in app"
                     git="Github"
                     live="Live"
+                    gitlink={"https://github.com/bxs1561/nep-app-web"}
+                    livelink={"https://nepali-stores.herokuapp.com/"}
 
                 />
-            <Card
-                src={img}
-                title="Nep App "
-                description="show coronavirus data of countries, trending youtube videos, learn test"
-                git="Github"
-                live="Live"
-            />
-            <Card
-                src={img}
-                title="Backend store information"
-                description="Create an API from information user submit"
-                git="Github"
-                live="Live"
-            />
-            </div>
-            <div className="project">
                 <Card
-                    src={img}
-                    title="Backend store information"
-                    description="Create an API from information user submit"
+                    src={Nepkarts}
+                    title="E-commerce mern stack "
+                    description="Buy product, send email to buyer using nodemailer, add product to cart using react context api, store order, user details
+                     in database, jwtwebtoken for authentication, stripe is use for payment"
                     git="Github"
                     live="Live"
-                />
-                <Card
-                    src={img}
-                    title="Backend store information"
-                    description="Create an API from information user submit"
-                    git="Github"
-                    live="Live"
-                />
-                <Card
-                    src={img}
-                    title="Backend store information"
-                    description="Create an API from information user submit"
-                    git="Github"
-                    live="Live"
+                    gitlink={"https://github.com/bxs1561/e-commerece-site"}
+                    livelink={"https://nepkarts.herokuapp.com/"}
                 />
 
             </div>
+
+            <h3>Apps</h3>
             <div className="project">
                 <AppCard
                     src={nep}
                     title="Nep App "
-                    description="show coronavirus data of countries, trending youtube videos, learn test"
+                    description="show coronavirus data of countries, trending youtube videos of each countries to watch, USA Citizenship question and answer with voice
+                    search local community stores"
                     git="Github"
                     live="Live"
+                    gitlink={"https://github.com/bxs1561/nep-app"}
                 />
-                <AppCard
-                    src={nep}
-                    title="Nep App "
-                    description="show coronavirus data of countries, trending youtube videos, learn test"
-                    git="Github"
-                    live="Live"
-                />
-                <AppCard
-                src={nep}
-                title="Nep App "
-                description="show coronavirus data of countries, trending youtube videos, learn test"
-                git="Github"
-            />
-
 
             </div>
 

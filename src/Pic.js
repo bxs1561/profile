@@ -8,7 +8,7 @@ function Pic() {
 
 
         <div className="pic">
-            <img src={profile}/>
+            <img src={profile} alt="Bikram"/>
         </div>
     )
 

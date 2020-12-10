@@ -1,0 +1,33 @@
+.footer {
+    /*border-top:  solid lightgray;*/
+    padding: 35px 50px;
+    padding: 110px;
+
+    /*background-color: #f7f7f7;*/
+    background: #caebf2;
+
+    text-align: center;
+}
+
+.footer > p {
+    padding: 5px;
+    font-size: 25px;
+}
+
+
+.email{
+    background-color: transparent;
+    color: rgba(255, 103, 68, 0.91);;
+    /*border: 3px solid rgba(255, 255, 255, 0.3);*/
+    padding: 15px;
+    /*background-color: #caebf2;*/
+    border: 2px solid gray;
+    border-radius: 999px;
+    /*color: #f1f2f5;*/
+}
+
+.email:hover{
+    cursor: pointer;
+    background-color: white ;
+    color: black;
+}
